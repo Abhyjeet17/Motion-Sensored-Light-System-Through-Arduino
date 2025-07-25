@@ -43,5 +43,13 @@ This project is beginner-friendly and it is the which got me into learning **emb
 | GND         | GND     |
 | IN          | D8      |
 
+---
+
+### Block Diagram
+
+flowchart LR
+    PIR[PIR Motion Sensor] --> Arduino[Arduino UNO]
+    Arduino --> Relay[Relay Module]
+    Relay --> Load["12V DC Load (Light, Buzzer, Fan)"]
 
 ---
