@@ -53,5 +53,3 @@ flowchart LR
     Arduino --> Relay[Relay Module]
     Relay --> Load["12V DC Load (Light, Buzzer, Fan)"]
 
-
----
